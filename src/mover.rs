@@ -1,5 +1,7 @@
-use crate::prelude::*;
 use pathfinding::prelude::astar;
+use rand::seq::IteratorRandom;
+
+use crate::prelude::*;
 
 #[derive(Component)]
 pub struct Mover {
@@ -13,16 +15,18 @@ impl Mover {
 }
 
 #[derive(Component, Default)]
-pub struct MoverPath(pub Vec<GridNode>);
+pub struct MoverPath(pub Vec<Position>);
 
 #[derive(Component)]
-pub struct MoverTarget(pub GridNode);
+pub struct MoverTarget(pub Position);
+
 #[derive(Component, Default)]
 pub enum MoverState {
     #[default]
     Idle,
     Moving,
 }
+
 pub fn move_movers_with_target(
     mut commands: Commands,
     mut query: Query<
@@ -46,8 +50,8 @@ pub fn move_movers_with_target(
         let target = path.0.first().unwrap();
 
         let destination = Vec3::new(
-            target.x as f32 * TILE_SIZE as f32,
-            target.y as f32 * TILE_SIZE as f32,
+            target.0.x as f32 * TILE_SIZE as f32,
+            target.0.y as f32 * TILE_SIZE as f32,
             0.0,
         );
 
@@ -98,40 +102,51 @@ pub fn move_movers_with_target(
 
 pub fn set_target_for_movers(
     mut commands: Commands,
-    mut query: Query<Entity, (Without<MoverTarget>, Without<MoverPath>)>,
+    mut query: Query<Entity, (With<Mover>, Without<MoverTarget>, Without<MoverPath>)>,
+    position_query: Query<&Position, (With<Tile>, With<Walkable>)>,
 ) {
+    let mut rng = rand::thread_rng();
     for entity in query.iter_mut() {
-        let target = GridNode::new(
-            rand::thread_rng().gen_range(0..GRID_WIDTH as i32),
-            rand::thread_rng().gen_range(0..GRID_HEIGHT as i32),
-        );
-
-        commands.entity(entity).insert(MoverTarget(target));
+        match position_query.iter().choose(&mut rng) {
+            None => {
+                // println!("No position found");
+                // continue;
+            }
+            Some(position) => {
+                commands.entity(entity).insert(MoverTarget(*position));
+            }
+        };
     }
 }
 
 pub fn generate_path_for_movers(
     mut commands: Commands,
-    grid: Res<Grid>,
     mut query: Query<(Entity, &Transform, &MoverTarget), Without<MoverPath>>,
+    tile_query: Query<(Entity, &Position, &Walkable), With<Tile>>,
+    tile_lookup: Query<&TileLookup>,
 ) {
     for (entity, transform, target) in query.iter_mut() {
-        let x = transform.translation.x;
-        let y = transform.translation.y;
-        let start = GridNode::new((x / TILE_SIZE as f32) as i32, (y / TILE_SIZE as f32) as i32);
+        let start = Position::from(transform.translation);
         let target = target.0;
 
         let result = astar(
             &start,
-            |n| grid.get_neighbors(n),
+            |n| n.get_neighbors_and_costs(&tile_query, &tile_lookup),
             |n| n.distance(&target) as u32 / 3,
             |n| *n == target,
         );
 
-        if result.is_some() {
-            commands.entity(entity).insert(MoverPath(result.unwrap().0));
-        } else {
-            commands.entity(entity).remove::<MoverTarget>();
+        match result {
+            None => {
+                info!("No path found");
+                // This target is not reachable, remove the target
+                // TODO? Add a Unreachable component to the entity
+                commands.entity(entity).remove::<MoverTarget>();
+            }
+            Some(result) => {
+                let path = result.0;
+                commands.entity(entity).insert(MoverPath(path));
+            }
         }
     }
 }

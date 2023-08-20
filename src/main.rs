@@ -14,10 +14,10 @@ pub mod cursor;
 pub mod fps_debug;
 mod game;
 pub mod game_state;
-pub mod grid;
 pub mod main_menu;
 pub mod mover;
 pub mod node;
+pub mod position;
 pub mod prelude;
 mod scene;
 mod splash;
@@ -88,10 +88,10 @@ pub fn button_interaction(
         ),
         (Changed<Interaction>, With<Button>),
     >,
-    mut text_query: Query<&mut Text>,
+    mut _text_query: Query<&mut Text>,
 ) {
-    for (interaction, mut color, mut border_color, children) in interaction_query.iter_mut() {
-        let mut text = text_query.get_mut(children[0]).unwrap();
+    for (interaction, mut color, mut border_color, _children) in interaction_query.iter_mut() {
+        // let mut text = text_query.get_mut(children[0]).unwrap();
         match *interaction {
             Interaction::Pressed => {
                 // text.sections[0].value = "Pressed".to_string();
@@ -110,7 +110,7 @@ pub fn button_interaction(
     }
 }
 
-pub fn spawn_ui(mut commands: Commands, asset_server: Res<AssetServer>) {
+pub fn spawn_ui(mut commands: Commands, _asset_server: Res<AssetServer>) {
     commands.spawn(NodeBundle {
         style: Style {
             width: Val::Percent(100.0),

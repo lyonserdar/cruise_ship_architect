@@ -1,0 +1,48 @@
+(
+  resources: {},
+  entities: {
+    4294967305: (
+      components: {
+        "cruise_ship_architect::tile::TileType": Floor,
+        "cruise_ship_architect::position::Position": ((
+          x: 0,
+          y: 0,
+        )),
+        "cruise_ship_architect::tile::Tile": (),
+        "cruise_ship_architect::tile::Walkable": (),
+      },
+    ),
+    4294967306: (
+      components: {
+        "cruise_ship_architect::tile::TileType": Wall,
+        "cruise_ship_architect::position::Position": ((
+          x: 0,
+          y: 1,
+        )),
+        "cruise_ship_architect::tile::Tile": (),
+      },
+    ),
+    4294967307: (
+      components: {
+        "cruise_ship_architect::tile::TileType": Floor,
+        "cruise_ship_architect::position::Position": ((
+          x: 1,
+          y: 0,
+        )),
+        "cruise_ship_architect::tile::Tile": (),
+        "cruise_ship_architect::tile::Walkable": (),
+      },
+    ),
+    4294967308: (
+      components: {
+        "cruise_ship_architect::tile::TileType": Floor,
+        "cruise_ship_architect::position::Position": ((
+          x: 1,
+          y: 1,
+        )),
+        "cruise_ship_architect::tile::Tile": (),
+        "cruise_ship_architect::tile::Walkable": (),
+      },
+    ),
+  },
+)
