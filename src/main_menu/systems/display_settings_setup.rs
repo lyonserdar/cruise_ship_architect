@@ -1,6 +1,7 @@
 use crate::main_menu::components::{
     MainMenuButtonAction, OnMainMenuDisplaySettingsScreen, SelectedOption,
 };
+use crate::main_menu::resources::DisplayQuality;
 use crate::main_menu::styles::{
     button_text_style, main_container, menu_container, BUTTON_STYLE, NORMAL_BUTTON,
 };

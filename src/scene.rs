@@ -10,21 +10,46 @@ pub struct ScenePlugin;
 impl Plugin for ScenePlugin {
     fn build(&self, app: &mut App) {
         app.register_type::<Tile>()
-            .register_type::<TileType>()
             .register_type::<Position>()
             .register_type::<Walkable>()
-            // .add_systems(OnEnter(GameState::Game), scene_setup)
-            .add_systems(Startup, scene_setup)
-            .add_systems(Update, save_scene_system.run_if(in_state(GameState::Game)));
-        // .add_systems(Startup, load_scene_system)
-        // .add_systems(Update, log_system);
+            .register_type::<Floor>()
+            .register_type::<Wall>()
+            .register_type::<Object>()
+            .register_type::<Item>()
+            .add_systems(
+                Update,
+                save_scene_system.run_if(in_state(GamePlayState::Playing)),
+            )
+            .add_systems(OnEnter(GamePlayState::Loading), load_scene_system);
     }
 }
 
 const SCENE_FILE_PATH: &str = "scenes/scene.scn.ron";
 
-fn scene_setup(mut commands: Commands) {
-    // commands.insert_resource(AppTypeRegistry::default());
+pub fn load_scene_system(world: &mut World) {
+    println!("Loading Game");
+    // (Temporary) Remove the tile_lookup components
+    let query = world
+        .query_filtered::<Entity, With<TileLookup>>()
+        .get_single(world);
+
+    if let Ok(entity) = query {
+        world.despawn(entity);
+    }
+
+    let asset_server = world.resource::<AssetServer>();
+
+    world.spawn(DynamicSceneBundle {
+        scene: asset_server.load("scenes/scene.scn.ron"),
+        ..default()
+    });
+
+    world
+        .resource_mut::<NextState<GamePlayState>>()
+        .set(GamePlayState::Playing);
+
+    let tile_lookup = TileLookup::new();
+    world.spawn(tile_lookup);
 }
 
 pub fn save_scene_system(world: &mut World) {
@@ -34,9 +59,12 @@ pub fn save_scene_system(world: &mut World) {
         let mut builder = DynamicSceneBuilder::from_world(world);
         // builder.deny_all();
         builder.allow::<Tile>();
-        builder.allow::<TileType>();
         builder.allow::<Position>();
         builder.allow::<Walkable>();
+        builder.allow::<Floor>();
+        builder.allow::<Wall>();
+        builder.allow::<Object>();
+        builder.allow::<Item>();
         builder.extract_entities(query.iter(world));
         let scene = builder.build();
         let type_registry = world.resource::<AppTypeRegistry>();
@@ -60,28 +88,3 @@ pub fn save_scene_system(world: &mut World) {
             .detach();
     }
 }
-
-// fn load_scene_system(mut commands: Commands, asset_server: Res<AssetServer>) {
-//     commands.spawn(DynamicSceneBundle {
-//         scene: asset_server.load(SCENE_FILE_PATH),
-//         ..default()
-//     });
-// }
-//
-// fn log_system(
-//     query: Query<(Entity, &ComponentA), Changed<ComponentA>>,
-//     res: Option<Res<ResourceA>>,
-// ) {
-//     for (entity, component_a) in &query {
-//         info!("  Entity({})", entity.index());
-//         info!(
-//             "    ComponentA: {{ x: {} y: {} }}\n",
-//             component_a.x, component_a.y
-//         );
-//     }
-//     if let Some(res) = res {
-//         if res.is_added() {
-//             info!("  New ResourceA: {{ score: {} }}\n", res.score);
-//         }
-//     }
-// }

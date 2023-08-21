@@ -2,6 +2,7 @@ use crate::main_menu::components::{
     OnMainMenuDisplaySettingsScreen, OnMainMenuMainScreen, OnMainMenuSettingsScreen,
     OnMainMenuSoundSettingsScreen,
 };
+use crate::main_menu::resources::{DisplayQuality, Volume};
 use crate::main_menu::states::MainMenuState;
 use crate::main_menu::systems::display_settings_setup::display_settings_menu_setup;
 use crate::main_menu::systems::handle_button_interaction::handle_button_interaction;
@@ -18,6 +19,8 @@ pub struct MainMenuPlugin;
 impl Plugin for MainMenuPlugin {
     fn build(&self, app: &mut App) {
         app.add_state::<MainMenuState>()
+            .insert_resource(DisplayQuality::High)
+            .insert_resource(Volume(7))
             .add_systems(OnEnter(GameState::MainMenu), setup)
             .add_systems(
                 Update,
