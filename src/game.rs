@@ -16,27 +16,15 @@ impl Plugin for GamePlugin {
     fn build(&self, app: &mut App) {
         app.add_state::<GamePlayState>()
             .add_systems(OnEnter(GameState::Game), game_setup)
-            // TODO: Divide GameState::Game into different states
             .add_systems(Update, exit_game.run_if(in_state(GameState::Game)))
             .add_systems(OnExit(GameState::Game), despawn_screen::<OnGameScreen>)
             .add_systems(Update, spawn_actor.run_if(in_state(GamePlayState::Playing)))
             .add_systems(
                 Update,
-                generate_path_for_movers.run_if(in_state(GamePlayState::Playing)),
-            )
-            .add_systems(
-                Update,
-                set_target_for_movers.run_if(in_state(GamePlayState::Playing)),
-            )
-            .add_systems(
-                Update,
-                move_movers_with_target.run_if(in_state(GamePlayState::Playing)),
-            )
-            .add_systems(
-                Update,
                 animate_sprite.run_if(in_state(GamePlayState::Playing)),
             )
             .add_plugins(TilesPlugin)
+            .add_plugins(MoversPlugin)
             .add_plugins(GameUIPlugin);
     }
 }

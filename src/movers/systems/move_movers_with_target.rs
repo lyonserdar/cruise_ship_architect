@@ -1,31 +1,8 @@
-use pathfinding::prelude::astar;
-use rand::seq::IteratorRandom;
-
+use crate::movers::components::mover::Mover;
+use crate::movers::components::mover_path::MoverPath;
+use crate::movers::components::mover_state::MoverState;
+use crate::movers::components::mover_target::MoverTarget;
 use crate::prelude::*;
-
-#[derive(Component)]
-pub struct Mover {
-    pub speed: f32,
-}
-
-impl Mover {
-    pub fn new(speed: f32) -> Self {
-        Self { speed }
-    }
-}
-
-#[derive(Component, Default)]
-pub struct MoverPath(pub Vec<Position>);
-
-#[derive(Component)]
-pub struct MoverTarget(pub Position);
-
-#[derive(Component, Default)]
-pub enum MoverState {
-    #[default]
-    Idle,
-    Moving,
-}
 
 pub fn move_movers_with_target(
     mut commands: Commands,
@@ -97,56 +74,5 @@ pub fn move_movers_with_target(
 
         // TODO: layer
         transform.translation.z = 0.1;
-    }
-}
-
-pub fn set_target_for_movers(
-    mut commands: Commands,
-    mut query: Query<Entity, (With<Mover>, Without<MoverTarget>, Without<MoverPath>)>,
-    position_query: Query<&Position, (With<Tile>, With<Walkable>)>,
-) {
-    let mut rng = rand::thread_rng();
-    for entity in query.iter_mut() {
-        match position_query.iter().choose(&mut rng) {
-            None => {
-                // println!("No position found");
-                // continue;
-            }
-            Some(position) => {
-                commands.entity(entity).insert(MoverTarget(*position));
-            }
-        };
-    }
-}
-
-pub fn generate_path_for_movers(
-    mut commands: Commands,
-    mut query: Query<(Entity, &Transform, &MoverTarget), Without<MoverPath>>,
-    tile_query: Query<(Entity, &Position, &Walkable), With<Tile>>,
-    tile_lookup: Query<&TileLookup>,
-) {
-    for (entity, transform, target) in query.iter_mut() {
-        let start = Position::from(transform.translation);
-        let target = target.0;
-
-        let result = astar(
-            &start,
-            |n| n.get_neighbors_and_costs(&tile_query, &tile_lookup),
-            |n| n.distance(&target) as u32 / 3,
-            |n| *n == target,
-        );
-
-        match result {
-            None => {
-                info!("No path found");
-                // This target is not reachable, remove the target
-                // TODO? Add a Unreachable component to the entity
-                commands.entity(entity).remove::<MoverTarget>();
-            }
-            Some(result) => {
-                let path = result.0;
-                commands.entity(entity).insert(MoverPath(path));
-            }
-        }
     }
 }

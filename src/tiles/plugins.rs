@@ -1,5 +1,6 @@
 use crate::prelude::*;
 use crate::tiles::systems::add_spatial_for_tiles::add_spatial_for_tiles;
+use crate::tiles::systems::remove_floor::remove_floor;
 use crate::tiles::systems::spawn_floor::spawn_floor;
 use crate::tiles::systems::spawn_wall::spawn_wall;
 use crate::tiles::systems::update_floor_sprites::update_floor_sprites;
@@ -17,6 +18,10 @@ impl Plugin for TilesPlugin {
         .add_systems(
             Update,
             (spawn_floor, spawn_wall).run_if(in_state(GamePlayState::Playing)),
+        )
+        .add_systems(
+            Update,
+            remove_floor.run_if(in_state(GamePlayState::Playing)),
         )
         .add_systems(
             Update,

@@ -33,7 +33,7 @@ impl Position {
 
     pub fn get_neighbors_and_costs(
         &self,
-        query: &Query<(Entity, &Position, &Walkable), With<Tile>>,
+        query: &Query<(Entity, &Position, &Walkable), (With<Tile>, With<Floor>)>,
         tile_storage: &Query<&TileLookup>,
     ) -> Vec<(Position, u32)> {
         let mut neighbors = Vec::new();
@@ -105,7 +105,7 @@ impl Position {
 
     fn check_neighbor_walkable(
         position: &Position,
-        query: &Query<(Entity, &Position, &Walkable), With<Tile>>,
+        query: &Query<(Entity, &Position, &Walkable), (With<Tile>, With<Floor>)>,
         tile_storage: &Query<&TileLookup>,
     ) -> bool {
         if let Ok(tile_storage) = tile_storage.get_single() {

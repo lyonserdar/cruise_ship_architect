@@ -7,12 +7,12 @@
           x: 0,
           y: 0,
         )),
-        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
       },
     ),
-    28: (
+    27: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: 1,
@@ -23,33 +23,88 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    30: (
+    28: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: 0,
           y: 1,
         )),
-        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
       },
     ),
-    32: (
+    29: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: 1,
           y: 1,
         )),
-        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    30: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    31: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    32: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    33: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
       },
     ),
     34: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
-          x: 2,
-          y: 0,
+          x: 0,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    35: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 3,
         )),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
@@ -59,8 +114,19 @@
     36: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    37: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
           x: 2,
-          y: 1,
+          y: 3,
         )),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
@@ -70,8 +136,19 @@
     38: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
-          x: 2,
-          y: 2,
+          x: -1,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    39: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 3,
         )),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
@@ -81,30 +158,63 @@
     40: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
-          x: 1,
+          x: -1,
           y: 2,
         )),
-        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    41: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
     42: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
-          x: 0,
-          y: 2,
+          x: -2,
+          y: 1,
         )),
-        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    43: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
       },
     ),
     44: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
-          x: 0,
-          y: 3,
+          x: -1,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    45: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 0,
         )),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
@@ -114,6 +224,2007 @@
     46: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    47: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    48: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    49: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    50: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    51: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    52: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    53: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    54: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    55: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    56: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    57: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    58: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    59: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    60: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    61: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    62: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    63: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    64: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    65: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    66: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    67: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    68: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    69: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    70: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    71: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    72: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    73: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    74: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    75: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    76: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    77: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    78: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    79: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    80: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    81: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    82: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    83: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    84: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    85: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    86: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    87: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    88: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    89: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    90: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    91: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    92: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    93: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    94: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    95: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    96: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    97: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    98: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    99: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    100: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    101: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    102: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    103: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    104: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    105: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    106: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    107: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    108: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    109: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    110: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    111: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    112: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    113: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    114: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    115: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    116: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    117: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    118: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    119: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    120: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    121: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    122: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    123: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    124: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    125: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    126: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    127: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    128: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    129: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    130: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    131: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    132: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    133: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    134: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    135: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    136: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    137: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    138: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    139: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    140: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    141: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    142: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    143: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    144: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    145: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    146: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    147: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    148: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    149: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    150: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    151: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    152: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    153: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    154: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    155: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    156: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    157: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    158: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    159: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    160: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    161: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    162: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    163: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    164: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    165: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    166: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    167: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    168: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    169: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    170: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    171: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    172: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    173: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    174: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    175: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    176: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    177: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    178: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    179: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    180: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    181: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    182: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    183: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    184: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    185: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    186: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    187: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    188: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    189: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    190: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    191: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    192: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    193: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    194: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    195: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    196: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    197: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    198: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    199: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    200: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    201: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    202: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    203: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    204: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    205: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -12,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    206: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    207: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    208: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    209: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    210: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    211: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    212: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    213: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    214: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    215: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    216: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    217: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    218: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    219: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    220: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    221: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    222: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    223: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    224: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    225: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    226: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    227: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    228: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
           x: 1,
           y: 3,
         )),
@@ -122,7 +2233,7 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    48: (
+    229: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: 2,
@@ -133,7 +2244,7 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    50: (
+    230: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -1,
@@ -144,7 +2255,7 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    52: (
+    231: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -2,
@@ -155,18 +2266,18 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    54: (
+    232: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -1,
           y: 2,
         )),
-        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
       },
     ),
-    56: (
+    233: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -2,
@@ -177,7 +2288,7 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    58: (
+    234: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -2,
@@ -188,18 +2299,18 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    60: (
+    235: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -1,
           y: 1,
         )),
-        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
       },
     ),
-    62: (
+    236: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -1,
@@ -210,7 +2321,7 @@
         "cruise_ship_architect::tiles::components::wall::Wall": (),
       },
     ),
-    64: (
+    237: (
       components: {
         "cruise_ship_architect::tiles::components::position::Position": ((
           x: -2,
@@ -219,6 +2330,2171 @@
         "cruise_ship_architect::tiles::components::tile::Tile": (),
         "cruise_ship_architect::tiles::components::floor::Floor": (),
         "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    238: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    239: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    240: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    241: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    242: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    243: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    244: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    245: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    246: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    247: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    248: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    249: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    250: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    251: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    252: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    253: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    254: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    255: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    256: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    257: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    258: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    259: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    260: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    261: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    262: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    263: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    264: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    265: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    266: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    267: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    268: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    269: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    270: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    271: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    272: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    273: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    274: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    275: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    276: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    277: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    278: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    279: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    280: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    281: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    282: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    283: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    284: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    285: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    286: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    287: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    288: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    289: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    290: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    291: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    292: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    293: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    294: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    295: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    296: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    297: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    298: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    299: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    300: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    301: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    302: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    303: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    304: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    305: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    306: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    307: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    308: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    309: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    310: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    311: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    312: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    313: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    314: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    315: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    316: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    317: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    318: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    319: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    320: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    321: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    322: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    323: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    324: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    325: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    326: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    327: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    328: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    329: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    330: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    331: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    332: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    333: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    334: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    335: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    336: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    337: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    338: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    339: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    340: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    341: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    342: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    343: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    344: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    345: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    346: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    347: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    348: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    349: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    350: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    351: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    352: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    353: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    354: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    355: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    356: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    357: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    358: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 9,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    359: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    360: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    361: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    362: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    363: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    364: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    365: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 1,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    366: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    367: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 3,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    368: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    369: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    370: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    371: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    372: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    373: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    374: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 8,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    375: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -1,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    376: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    377: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -3,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    378: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    379: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    380: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    381: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    382: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    383: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    384: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    385: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    386: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    387: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    388: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    389: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -8,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    390: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    391: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    392: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    393: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    394: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 0,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    395: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    396: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 2,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::wall::Wall": (),
+      },
+    ),
+    397: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -12,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    398: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    399: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 0,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    400: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    401: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    402: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 2,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    403: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -2,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    404: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    405: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    406: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    407: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    408: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    409: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -1,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    410: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    411: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    412: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: -3,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    413: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    414: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 5,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    415: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 4,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    416: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -5,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    417: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -4,
+          y: 5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    418: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -19,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    419: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    420: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    421: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    422: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: -6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    423: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: -5,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    424: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    425: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    426: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    427: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 6,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    428: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: 8,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    429: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: 7,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    430: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -6,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    431: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    432: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: 6,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    433: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: 7,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
+      },
+    ),
+    434: (
+      components: {
+        "cruise_ship_architect::tiles::components::position::Position": ((
+          x: -7,
+          y: -4,
+        )),
+        "cruise_ship_architect::tiles::components::tile::Tile": (),
+        "cruise_ship_architect::tiles::components::floor::Floor": (),
+        "cruise_ship_architect::tiles::components::walkable::Walkable": (),
       },
     ),
   },

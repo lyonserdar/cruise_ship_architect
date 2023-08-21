@@ -16,7 +16,7 @@ mod game;
 pub mod game_state;
 pub mod game_ui;
 pub mod main_menu;
-pub mod mover;
+pub mod movers;
 pub mod node;
 pub mod prelude;
 mod scene;

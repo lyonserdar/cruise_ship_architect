@@ -1,10 +1,14 @@
 pub mod floor;
+pub mod floor_sprite;
 pub mod in_tile_lookup;
 pub mod item;
+pub mod item_sprite;
 pub mod object;
+pub mod object_sprite;
 pub mod position;
 pub mod systems;
 pub mod tile;
 pub mod tile_lookup;
 pub mod walkable;
 pub mod wall;
+pub mod wall_sprite;

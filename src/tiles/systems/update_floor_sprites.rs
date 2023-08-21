@@ -1,5 +1,6 @@
 use crate::prelude::*;
 use crate::tiles::components::floor::Floor;
+use crate::tiles::components::floor_sprite::FloorSprite;
 use crate::tiles::components::tile::Tile;
 
 pub fn update_floor_sprites(
@@ -8,12 +9,15 @@ pub fn update_floor_sprites(
     asset_server: Res<AssetServer>,
 ) {
     // TODO: Floor might eventually have a sprite texture information
-    for (entity, floor) in query.iter() {
+    for (entity, _floor) in query.iter() {
         commands.entity(entity).with_children(|parent| {
-            parent.spawn(SpriteBundle {
-                texture: asset_server.load("floor.png"),
-                ..Default::default()
-            });
+            parent.spawn((
+                SpriteBundle {
+                    texture: asset_server.load("floor.png"),
+                    ..Default::default()
+                },
+                FloorSprite,
+            ));
         });
     }
 }

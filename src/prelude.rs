@@ -13,7 +13,7 @@ pub use crate::game::*;
 pub use crate::game_state::*;
 pub use crate::game_ui::*;
 pub use crate::main_menu::*;
-pub use crate::mover::*;
+pub use crate::movers::*;
 pub use crate::scene::*;
 pub use crate::tiles::*;
 pub use crate::utils::*;
