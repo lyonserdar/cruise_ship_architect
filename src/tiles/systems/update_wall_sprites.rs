@@ -1,7 +1,7 @@
-use crate::prelude::*;
 use crate::tiles::components::tile::Tile;
 use crate::tiles::components::wall::Wall;
 use crate::tiles::components::wall_sprite::WallSprite;
+use bevy::prelude::*;
 
 pub fn update_wall_sprites(
     mut commands: Commands,
@@ -13,7 +13,7 @@ pub fn update_wall_sprites(
         commands.entity(entity).with_children(|parent| {
             parent.spawn((
                 SpriteBundle {
-                    texture: asset_server.load("wall.png"),
+                    texture: asset_server.load("sprites/wall.png"),
                     ..Default::default()
                 },
                 WallSprite,

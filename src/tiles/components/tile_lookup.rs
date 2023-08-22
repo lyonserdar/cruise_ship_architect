@@ -1,4 +1,5 @@
-use crate::prelude::*;
+use crate::tiles::Position;
+use bevy::prelude::*;
 pub use bevy::utils::HashMap;
 
 /// This will be loaded when the scene is created

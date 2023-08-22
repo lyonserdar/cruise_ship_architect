@@ -1,4 +1,4 @@
-use crate::prelude::*;
+use bevy::prelude::*;
 
 pub const GAME_TITLE: &str = "Cruise Ship Architect";
 pub const TILE_SIZE: u32 = 16;

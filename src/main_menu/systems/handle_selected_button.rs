@@ -1,6 +1,6 @@
 use crate::main_menu::components::SelectedOption;
 use crate::main_menu::styles::NORMAL_BUTTON;
-use crate::prelude::*;
+use bevy::prelude::*;
 
 // This system updates the settings when a new value for a setting is selected, and marks
 // the button as the one currently selected

@@ -1,4 +1,6 @@
-use crate::prelude::*;
+use crate::game_state::GameState;
+use crate::utils::despawn_screen;
+use bevy::prelude::*;
 
 pub struct SplashPlugin;
 
@@ -17,7 +19,7 @@ struct OnSplashScreen;
 struct SplashTimer(Timer);
 
 fn splash_setup(mut commands: Commands, asset_server: Res<AssetServer>) {
-    let bevy_logo = asset_server.load("bevy_logo.png");
+    let bevy_logo = asset_server.load("sprites/bevy_logo.png");
 
     // TODO: Colors to constants
     commands

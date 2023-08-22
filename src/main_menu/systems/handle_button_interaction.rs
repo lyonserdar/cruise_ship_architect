@@ -2,7 +2,7 @@ use crate::main_menu::components::SelectedOption;
 use crate::main_menu::styles::{
     HOVERED_BUTTON, HOVERED_PRESSED_BUTTON, NORMAL_BUTTON, PRESSED_BUTTON,
 };
-use crate::prelude::*;
+use bevy::prelude::*;
 
 // This system handles changing all buttons color based on mouse interaction
 pub fn handle_button_interaction(

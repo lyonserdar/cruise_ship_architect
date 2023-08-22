@@ -1,4 +1,4 @@
-use crate::prelude::*;
+use bevy::prelude::*;
 #[derive(Component, Default)]
 pub enum Facing {
     Up,

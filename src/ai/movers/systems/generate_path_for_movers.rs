@@ -1,6 +1,7 @@
-use crate::movers::components::mover_path::MoverPath;
-use crate::movers::components::mover_target::MoverTarget;
-use crate::prelude::*;
+use crate::ai::movers::components::mover_path::MoverPath;
+use crate::ai::movers::components::mover_target::MoverTarget;
+use crate::tiles::{Floor, Position, Tile, TileLookup, Walkable};
+use bevy::prelude::*;
 use pathfinding::prelude::astar;
 
 pub fn generate_path_for_movers(

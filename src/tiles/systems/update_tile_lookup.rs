@@ -1,7 +1,7 @@
-use crate::prelude::*;
 use crate::tiles::components::in_tile_lookup::InTileLookup;
 use crate::tiles::components::position::Position;
 use crate::tiles::components::tile_lookup::TileLookup;
+use bevy::prelude::*;
 
 pub fn update_tile_lookup(
     mut commands: Commands,

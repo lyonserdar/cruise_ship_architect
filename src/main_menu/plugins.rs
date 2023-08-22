@@ -1,3 +1,4 @@
+use crate::game_state::GameState;
 use crate::main_menu::components::{
     OnMainMenuDisplaySettingsScreen, OnMainMenuMainScreen, OnMainMenuSettingsScreen,
     OnMainMenuSoundSettingsScreen,
@@ -12,7 +13,8 @@ use crate::main_menu::systems::menu_action::menu_action;
 use crate::main_menu::systems::settings_setup::settings_setup;
 use crate::main_menu::systems::setup::setup;
 use crate::main_menu::systems::sound_settings_setup::sound_settings_menu_setup;
-use crate::prelude::*;
+use crate::utils::despawn_screen;
+use bevy::prelude::*;
 
 pub struct MainMenuPlugin;
 

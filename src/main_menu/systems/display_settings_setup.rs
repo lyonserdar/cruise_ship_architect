@@ -5,7 +5,7 @@ use crate::main_menu::resources::DisplayQuality;
 use crate::main_menu::styles::{
     button_text_style, main_container, menu_container, BUTTON_STYLE, NORMAL_BUTTON,
 };
-use crate::prelude::*;
+use bevy::prelude::*;
 
 pub fn display_settings_menu_setup(
     mut commands: Commands,

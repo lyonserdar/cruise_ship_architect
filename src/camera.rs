@@ -1,7 +1,8 @@
 use bevy::input::mouse::{MouseScrollUnit, MouseWheel};
 use bevy::render::view::RenderLayers;
 
-use crate::prelude::*;
+use crate::constants::{GRID_HEIGHT, GRID_WIDTH, TILE_SIZE};
+use bevy::prelude::*;
 
 pub struct CameraPlugin;
 

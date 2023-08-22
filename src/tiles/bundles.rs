@@ -1,6 +1,7 @@
-use crate::prelude::*;
 use crate::tiles::components::tile::Tile;
 use crate::tiles::components::walkable::Walkable;
+use crate::tiles::Position;
+use bevy::prelude::*;
 
 #[derive(Bundle)]
 pub struct TileBundle {

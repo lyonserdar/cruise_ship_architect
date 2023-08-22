@@ -1,11 +1,13 @@
-use crate::prelude::*;
+use crate::game::GamePlayState;
 use crate::tiles::systems::add_spatial_for_tiles::add_spatial_for_tiles;
 use crate::tiles::systems::remove_floor::remove_floor;
+use crate::tiles::systems::remove_wall::remove_wall;
 use crate::tiles::systems::spawn_floor::spawn_floor;
 use crate::tiles::systems::spawn_wall::spawn_wall;
 use crate::tiles::systems::update_floor_sprites::update_floor_sprites;
 use crate::tiles::systems::update_tile_lookup::update_tile_lookup;
 use crate::tiles::systems::update_wall_sprites::update_wall_sprites;
+use bevy::prelude::*;
 
 pub struct TilesPlugin;
 
@@ -21,7 +23,7 @@ impl Plugin for TilesPlugin {
         )
         .add_systems(
             Update,
-            remove_floor.run_if(in_state(GamePlayState::Playing)),
+            (remove_floor, remove_wall).run_if(in_state(GamePlayState::Playing)),
         )
         .add_systems(
             Update,

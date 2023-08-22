@@ -1,8 +1,9 @@
-use crate::movers::components::mover::Mover;
-use crate::movers::components::mover_path::MoverPath;
-use crate::movers::components::mover_state::MoverState;
-use crate::movers::components::mover_target::MoverTarget;
-use crate::prelude::*;
+use crate::ai::movers::components::mover_path::MoverPath;
+use crate::ai::movers::components::mover_target::MoverTarget;
+use crate::ai::movers::{Mover, MoverState};
+use crate::animation::{AnimationState, AnimationStates, Facing};
+use crate::constants::TILE_SIZE;
+use bevy::prelude::*;
 
 pub fn move_movers_with_target(
     mut commands: Commands,

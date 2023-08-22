@@ -1,7 +1,8 @@
-use crate::movers::components::mover::Mover;
-use crate::movers::components::mover_path::MoverPath;
-use crate::movers::components::mover_target::MoverTarget;
-use crate::prelude::*;
+use crate::ai::movers::components::mover_path::MoverPath;
+use crate::ai::movers::components::mover_target::MoverTarget;
+use crate::ai::movers::Mover;
+use crate::tiles::{Floor, Position, Tile, Walkable};
+use bevy::prelude::*;
 use rand::seq::IteratorRandom;
 
 pub fn set_target_for_movers(

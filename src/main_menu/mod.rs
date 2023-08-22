@@ -2,8 +2,8 @@ mod components;
 pub mod plugins;
 mod resources;
 mod states;
-mod styles;
-mod systems;
+pub mod styles;
+pub mod systems;
 
 pub use components::SelectedOption;
 pub use plugins::MainMenuPlugin;

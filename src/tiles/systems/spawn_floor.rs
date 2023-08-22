@@ -1,10 +1,13 @@
-use crate::prelude::*;
+use crate::cursor::CursorWorldPosition;
+use crate::game::OnGameScreen;
+use crate::game_ui::BuildModeType;
 use crate::tiles::bundles::TileBundle;
 use crate::tiles::components::floor::Floor;
 use crate::tiles::components::position::Position;
 use crate::tiles::components::tile::Tile;
 use crate::tiles::components::tile_lookup::TileLookup;
 use crate::tiles::components::walkable::Walkable;
+use bevy::prelude::*;
 
 pub fn spawn_floor(
     mut commands: Commands,
@@ -33,10 +36,13 @@ pub fn spawn_floor(
                 }
             } else {
                 entity = commands
-                    .spawn(TileBundle {
-                        position,
-                        ..default()
-                    })
+                    .spawn((
+                        TileBundle {
+                            position,
+                            ..default()
+                        },
+                        OnGameScreen,
+                    ))
                     .id();
             }
 

@@ -1,7 +1,8 @@
-use crate::movers::systems::generate_path_for_movers::generate_path_for_movers;
-use crate::movers::systems::move_movers_with_target::move_movers_with_target;
-use crate::movers::systems::set_target_for_movers::set_target_for_movers;
-use crate::prelude::*;
+use crate::ai::movers::systems::generate_path_for_movers::generate_path_for_movers;
+use crate::ai::movers::systems::move_movers_with_target::move_movers_with_target;
+use crate::ai::movers::systems::set_target_for_movers::set_target_for_movers;
+use crate::game::GamePlayState;
+use bevy::prelude::*;
 
 pub struct MoversPlugin;
 

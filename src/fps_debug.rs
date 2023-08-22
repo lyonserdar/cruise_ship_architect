@@ -1,6 +1,6 @@
 use bevy::diagnostic::{DiagnosticsStore, FrameTimeDiagnosticsPlugin};
 
-use crate::prelude::*;
+use bevy::prelude::*;
 
 pub struct FPSDebugPlugin;
 

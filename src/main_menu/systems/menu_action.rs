@@ -1,7 +1,8 @@
+use crate::game_state::GameState;
 use crate::main_menu::components::MainMenuButtonAction;
 use crate::main_menu::states::MainMenuState;
-use crate::prelude::*;
 use bevy::app::AppExit;
+use bevy::prelude::*;
 
 pub fn menu_action(
     interaction_query: Query<

@@ -1,6 +1,9 @@
+use crate::constants::TEXT_COLOR;
+use crate::game::OnGameScreen;
 use crate::game_ui::components::{GameUIButtonAction, OnGameUIMainScreen};
 use crate::game_ui::resources::BuildModeType;
-use crate::prelude::*;
+use crate::main_menu::SelectedOption;
+use bevy::prelude::*;
 
 pub fn menu_action(
     interaction_query: Query<
@@ -50,6 +53,7 @@ pub fn game_ui_setup(mut commands: Commands) {
                 ..default()
             },
             OnGameUIMainScreen,
+            OnGameScreen,
         ))
         .with_children(|parent| {
             parent

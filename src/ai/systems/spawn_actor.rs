@@ -1,7 +1,8 @@
-use crate::prelude::*;
-
-#[derive(Component)]
-pub struct Actor;
+use crate::ai::components::actor::Actor;
+use crate::ai::movers::{Mover, MoverState};
+use crate::animation::{AnimationIndices, AnimationStates, AnimationTimer, Facing};
+use crate::constants::ACTOR_SPAWN_COUNT;
+use bevy::prelude::*;
 
 pub fn spawn_actor(
     mut commands: Commands,
@@ -10,7 +11,7 @@ pub fn spawn_actor(
     mut texture_atlases: ResMut<Assets<TextureAtlas>>,
 ) {
     if keyboard_input.just_pressed(KeyCode::U) {
-        let texture_handle = asset_server.load("character.png");
+        let texture_handle = asset_server.load("sprites/character.png");
         let texture_atlas = TextureAtlas::from_grid(
             texture_handle,
             Vec2::new(16., 16.),

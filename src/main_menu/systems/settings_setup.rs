@@ -2,7 +2,7 @@ use crate::main_menu::components::{MainMenuButtonAction, OnMainMenuSettingsScree
 use crate::main_menu::styles::{
     button_text_style, main_container, menu_container, BUTTON_STYLE, NORMAL_BUTTON,
 };
-use crate::prelude::*;
+use bevy::prelude::*;
 
 pub fn settings_setup(mut commands: Commands, asset_server: Res<AssetServer>) {
     commands

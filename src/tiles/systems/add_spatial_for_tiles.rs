@@ -1,6 +1,6 @@
-use crate::prelude::*;
 use crate::tiles::components::position::Position;
 use crate::tiles::components::tile::Tile;
+use bevy::prelude::*;
 
 pub fn add_spatial_for_tiles(
     mut commands: Commands,

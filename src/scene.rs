@@ -1,9 +1,12 @@
 use std::fs::File;
 use std::io::Write;
+use std::time::SystemTime;
 
 use bevy::tasks::IoTaskPool;
 
-use crate::prelude::*;
+use crate::game::{GamePlayState, OnGameScreen};
+use crate::tiles::{Floor, Item, Object, Position, Tile, TileLookup, Walkable, Wall};
+use bevy::prelude::*;
 
 pub struct ScenePlugin;
 
@@ -26,6 +29,9 @@ impl Plugin for ScenePlugin {
 
 const SCENE_FILE_PATH: &str = "scenes/scene.scn.ron";
 
+#[derive(Component)]
+pub struct GameScene;
+
 pub fn load_scene_system(world: &mut World) {
     println!("Loading Game");
     // (Temporary) Remove the tile_lookup components
@@ -39,10 +45,14 @@ pub fn load_scene_system(world: &mut World) {
 
     let asset_server = world.resource::<AssetServer>();
 
-    world.spawn(DynamicSceneBundle {
-        scene: asset_server.load("scenes/scene.scn.ron"),
-        ..default()
-    });
+    world.spawn((
+        DynamicSceneBundle {
+            scene: asset_server.load("scenes/scene.scn.ron"),
+            ..default()
+        },
+        OnGameScreen,
+        GameScene,
+    ));
 
     world
         .resource_mut::<NextState<GamePlayState>>()
@@ -81,6 +91,7 @@ pub fn save_scene_system(world: &mut World) {
         IoTaskPool::get()
             .spawn(async move {
                 // Write the scene RON data to file
+                println!("{:?}", SystemTime::now());
                 File::create(format!("assets/{SCENE_FILE_PATH}"))
                     .and_then(|mut file| file.write(serialized_scene.as_bytes()))
                     .expect("Error while writing scene to file");

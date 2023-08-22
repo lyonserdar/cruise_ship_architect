@@ -1,4 +1,11 @@
-use crate::prelude::*;
+use crate::ai::movers::MoversPlugin;
+use crate::ai::systems::spawn_actor::spawn_actor;
+use crate::animation::animate_sprite;
+use crate::game_state::GameState;
+use crate::game_ui::GameUIPlugin;
+use crate::tiles::TilesPlugin;
+use crate::utils::despawn_screen;
+use bevy::prelude::*;
 
 #[derive(Clone, Copy, Default, Eq, PartialEq, Debug, Hash, States)]
 pub enum GamePlayState {
@@ -30,7 +37,7 @@ impl Plugin for GamePlugin {
 }
 
 #[derive(Component)]
-struct OnGameScreen;
+pub struct OnGameScreen;
 
 fn game_setup(mut _commands: Commands, mut game_play_state: ResMut<NextState<GamePlayState>>) {
     game_play_state.set(GamePlayState::Loading);
@@ -43,6 +50,6 @@ fn exit_game(
 ) {
     if keyboard_input.just_pressed(KeyCode::Escape) {
         game_state.set(GameState::MainMenu);
-        game_play_state.set(GamePlayState::Paused);
+        game_play_state.set(GamePlayState::Disabled);
     }
 }

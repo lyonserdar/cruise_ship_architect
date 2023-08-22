@@ -1,5 +1,6 @@
 pub mod add_spatial_for_tiles;
 pub mod remove_floor;
+pub mod remove_wall;
 pub mod spawn_floor;
 pub mod spawn_wall;
 pub mod update_floor_sprites;

@@ -1,7 +1,7 @@
-use crate::prelude::*;
 use crate::tiles::components::floor::Floor;
 use crate::tiles::components::floor_sprite::FloorSprite;
 use crate::tiles::components::tile::Tile;
+use bevy::prelude::*;
 
 pub fn update_floor_sprites(
     mut commands: Commands,
@@ -13,7 +13,7 @@ pub fn update_floor_sprites(
         commands.entity(entity).with_children(|parent| {
             parent.spawn((
                 SpriteBundle {
-                    texture: asset_server.load("floor.png"),
+                    texture: asset_server.load("sprites/floor.png"),
                     ..Default::default()
                 },
                 FloorSprite,

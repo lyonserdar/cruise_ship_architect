@@ -1,4 +1,6 @@
-use crate::prelude::*;
+use crate::constants::TILE_SIZE;
+use crate::tiles::{Floor, Tile, TileLookup, Walkable};
+use bevy::prelude::*;
 
 #[derive(Component, Reflect, Default, Eq, PartialEq, Hash, Copy, Clone, Debug)]
 #[reflect(Component)]

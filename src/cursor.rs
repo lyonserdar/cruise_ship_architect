@@ -1,4 +1,6 @@
-use crate::prelude::*;
+use crate::camera::MainCamera;
+use crate::constants::TILE_SIZE;
+use bevy::prelude::*;
 
 pub struct CursorPlugin;
 
